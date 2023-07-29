@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/davidl09/Desktop/C++/wx_cmake_test/build/main/src",
+  "command": "/usr/bin/c++  -I/home/davidl09/Desktop/C++/wx_cmake_test/main/include -g -I/usr/local/lib/wx/include/gtk3-unicode-3.2 -I/usr/local/include/wx-3.2 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXGTK__ -pthread -o CMakeFiles/wxtest.dir/main.cpp.o -c /home/davidl09/Desktop/C++/wx_cmake_test/main/src/main.cpp",
+  "file": "/home/davidl09/Desktop/C++/wx_cmake_test/main/src/main.cpp"
+}
+]
