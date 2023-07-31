@@ -1,7 +1,0 @@
-/home/davidl09/Desktop/C++/wx_cmake_test/build/CMakeFiles/edit_cache.dir
-/home/davidl09/Desktop/C++/wx_cmake_test/build/CMakeFiles/rebuild_cache.dir
-/home/davidl09/Desktop/C++/wx_cmake_test/build/main/CMakeFiles/edit_cache.dir
-/home/davidl09/Desktop/C++/wx_cmake_test/build/main/CMakeFiles/rebuild_cache.dir
-/home/davidl09/Desktop/C++/wx_cmake_test/build/main/src/CMakeFiles/wxtest.dir
-/home/davidl09/Desktop/C++/wx_cmake_test/build/main/src/CMakeFiles/edit_cache.dir
-/home/davidl09/Desktop/C++/wx_cmake_test/build/main/src/CMakeFiles/rebuild_cache.dir
