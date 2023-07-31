@@ -1,5 +1,7 @@
 #include <wx/wx.h>
 
+#include "libcplot.hpp"
+
 class CPlotWindow : public wxFrame {
 public:
     CPlotWindow(const wxString& title) : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(800, 600), wxDEFAULT_FRAME_STYLE) {
@@ -9,6 +11,8 @@ public:
 
 		fileMenu = new wxMenu;
 		fileMenu->Append(wxID_EXIT, "&Exit\tAlt-X", "Exit the application");
+        fileMenu->Append(wxID_SAVE, "&Save\tAlt-S", "Save the current image");
+        fileMenu->Append(wxID_SAVEAS, "&Save as...\tAlt-Shift-S", "Save and name the current image");
         menuBar->Append(fileMenu, "&File");
 
 		helpMenu = new wxMenu;
