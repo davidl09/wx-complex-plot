@@ -26,7 +26,7 @@ public:
 		wxStaticText* text = new wxStaticText(panel, wxID_ANY, "f(z) = ");
 
         // Add a text box below the bitmap
-        textBox = new wxTextCtrl(panel, wxID_ANY, "f(z) = ...",
+        textBox = new wxTextCtrl(panel, wxID_ANY, "",
                                  wxDefaultPosition, wxDefaultSize,
                                  wxTE_DONTWRAP);
 
@@ -47,18 +47,25 @@ public:
     }
 
 private:
+
 	wxMenuBar* menuBar;
 	wxMenu* fileMenu;
 	wxMenu* helpMenu;
     wxStaticBitmap* staticBitmap;
     wxTextCtrl* textBox;
     wxBoxSizer* mainSizer;
+    BitMap* src_bitmap;
+    
 
     void OnResize(wxSizeEvent& event) {
         // Adjust the width of the text box to match the frame's width while keeping its height fixed
         wxSize size = GetClientSize();
         textBox->SetSize(size.GetWidth(), 100); // 100 is the fixed height of the text box
         event.Skip(); // Allow default handling of the resize event
+    }
+
+    void OnTextChange(){
+
     }
 };
 

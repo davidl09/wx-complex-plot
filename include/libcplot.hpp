@@ -54,7 +54,7 @@ struct BMPHeader {
 */
 
 
-FILE* jpeg_out;
+static FILE* jpeg_out;
 class BitMap
 {
     const int width, height;

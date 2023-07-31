@@ -2,6 +2,12 @@
 *.d
 
 *.json
+build/
+.vscode/
+bin/
+*.cmake
+*.make
+*.txt
 
 # Compiled Object files
 *.slo
